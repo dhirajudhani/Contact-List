@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+}
+#page-heading{
+    text-align: center;
+    color: gray;
+}
+
+.contact-container{
+    margin-left: 35%;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    
+}
+
+.contact{
+   
+    list-style: none;
+    background-color: lightblue;
+    max-width: 40%;
+    margin: 1rem 0rem;
+    display: flex;
+}
+.contact .details{
+    width: 90%;
+}
+.contact .delete-button{
+    width: 10%;
+    text-align: center;
+    margin-top: 20px;
+}
+.contact .delete-button a{
+    color: red;
+}
+#p1{
+    font-weight: 600;
+}
+.contact:hover{
+    background-color: gray;
+}
+button{
+    
+   
+    background-color: gray;
+}
+#form-ip{
+    padding: 1rem 0rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;    
+
+}
